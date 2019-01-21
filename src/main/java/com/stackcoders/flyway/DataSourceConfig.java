@@ -19,7 +19,9 @@ import org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean;
 import org.springframework.transaction.PlatformTransactionManager;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
-// Configuration for primary database, which stores users.
+/***
+Created by Balaji SUndarajan on 20/01/2019
+***/
 
 
 @Configuration
@@ -48,7 +50,7 @@ public class DataSourceConfig {
         return flyway;
     }
 
-    // We need to run flyway before the datasource is linked to JPA, so we have a @DependsOn tag here.
+  
     @Bean
     @Primary
     @DependsOn("flyway")
