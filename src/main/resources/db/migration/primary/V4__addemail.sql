@@ -1,0 +1,1 @@
+INSERT INTO users(username, first_name, last_name, email) VALUES('flywaytestuser', 'Virat', 'Kohli', 'virat-test@gmail.com');
