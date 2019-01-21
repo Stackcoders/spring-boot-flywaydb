@@ -36,8 +36,11 @@ Go on the project's root folder, then type:
 ### Build & Run the app using maven
 
 cd spring-boot-flywaydb
+
 mvn clean
+
 mvn install
+
 java -jar target/flyway-db-management-1.0.jar
 
 	
